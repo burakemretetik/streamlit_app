@@ -120,7 +120,7 @@ with form:
     if industry_input == "":
       st.error("Industry field cannot be blank")
     else:
-      my_bar = st.progress(0.15)
+      my_bar = st.progress(0.05)
       st.subheader("Startup Ideas:")
 
       for i in range(num_input):
